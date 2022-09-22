@@ -15,6 +15,9 @@ For example, the coding for this block has an error, resulting in an incorrect r
 To use this package, include it in your `.vale.ini` file as follows:
 
 ----
-Packages = 
 
+Packages = https://github.com/pwright/vale-adoc-analysis/raw/main/styles/AdocReport.zip
+
+[*.adoc]
+BasedOnStyles = AdocReport
 ----
