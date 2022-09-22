@@ -1,0 +1,9 @@
+---
+extends: existence
+level: error
+link: https://github.com/pwright/vale-adoc-analysis
+message: "Possible adoc error '%s'."
+source: "unknown"
+nonword: true
+tokens:
+  - '^=.*'

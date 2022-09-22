@@ -1,0 +1,20 @@
+# AdocReport
+
+A vale package to analyse AsciiDoc.
+
+Incorrectly coded AsciiDoc can be difficult to notice in complex repos.
+
+This vale package might help.
+
+--
+For example, the coding for this block has an error, resulting in an incorrect rendering of the next heading.
+-
+
+== Using this package
+
+To use this package, include it in your `.vale.ini` file as follows:
+
+----
+Packages = RedHat
+
+----
