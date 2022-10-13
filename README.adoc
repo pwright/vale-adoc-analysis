@@ -10,6 +10,10 @@ This vale package might help.
 For example, the coding for this block has an error, resulting in an incorrect rendering of the next heading.
 -
 
+Another thing this package reports is lack of alt text, which is important for accessibility.
+
+image::image.png[]
+
 == Using this package
 
 To use this package, include it in your `.vale.ini` file as follows:
