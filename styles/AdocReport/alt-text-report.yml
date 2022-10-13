@@ -1,0 +1,9 @@
+---
+extends: existence
+level: suggestion
+link: https://github.com/pwright/vale-adoc-analysis
+message: "Alt text '%s'."
+source: "unknown"
+scope: raw
+raw:
+  - 'image::.*\[.*\]'

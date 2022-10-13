@@ -12,7 +12,12 @@ For example, the coding for this block has an error, resulting in an incorrect r
 
 Another thing this package reports is lack of alt text, which is important for accessibility.
 
+.No alt text
 image::image.png[]
+
+.Some alt text
+image::image.png[cup]
+
 
 == Using this package
 
